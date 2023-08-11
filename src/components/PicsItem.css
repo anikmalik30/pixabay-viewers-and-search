@@ -1,0 +1,21 @@
+.Pics {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    gap: 16px;
+  }
+  
+  .PicsItem__image {
+    margin: 10px;
+    display: inline-block;
+    width: 100%; 
+    height: auto;
+    vertical-align: top; 
+  }
+  
+  .PicsItem__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 8px;
+  }
+  
